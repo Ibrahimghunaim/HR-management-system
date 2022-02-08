@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/app.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="main-nav">
+            <ul>
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+                <li><a href="/accounting.html">accounting</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">Services</a></li>
+            </ul>
+        </nav>
+
+        <section class="main-con">
+
+            <div class="add-person">
+                <form id="person" class="form1">
+                    <label for="Full name">Full name:</label>
+                    <input type="text" id="Fullname" required> <br>
+                    <label for="Departmentid">Department:</label>
+                    <select name="Department" id="Departmentid">
+                        <option value="Administration">Administration</option>
+                        <option value="Marketing">Marketing</option>
+                        <option value="Development">Development</option>
+                        <option value="Finance">Finance</option>
+                    </select><br>
+                    <label for="Levelid">Level:</label>
+                    <select name="Level" id="Levelid">
+                        <option value="Junior">Junior</option>
+                        <option value="Mid-Senior">Mid-Senior</option>
+                        <option value="Senior">Senior</option>
+                    </select><br>
+                    <label for="Image url">Image url:</label>
+                    <input type="text" id="Image url"> <br>
+                    <input type="submit" value="add new person" class="Submit" id="addpersonBtn">
+                </form>
+            </div>
+
+            <div class="table">
+                <table id="employt">
+                    <tbody id="table">
+                        <tr>
+                            <th id="id">Employee ID </th>
+                            <th id="fullName">Full Name</th>
+                            <th id="dep">Department</th>
+                            <th id="level">Level</th>
+                            
+                            <th id="salary">Salary</th>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            
+
+        </section>
+        <section id ="card" class="card">
+            <!-- <div class="card1">
+                <img src="/assest/card.png" alt="">
+                <p>fullName : no data</p>
+                <p>Department : no data</p>
+                <p>Salary : no data</p>
+            </div> -->
+        </section>
+
+        <footer>
+            <h1>&copy; THIS SITE  MADE BY ENG.ibraheem</h1>
+            <a href="" class="info">
+                emial
+            </a>
+            <a href="" class="info">
+                github
+            </a>
+        </footer>
+
+        <!-- ----------end -->
+    </div>
+
+</body>
+
+</html>

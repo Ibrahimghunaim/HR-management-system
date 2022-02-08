@@ -1,0 +1,149 @@
+html{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(253, 251, 251);
+}
+body{
+    background-image:url(https://previews.123rf.com/images/microstocker2/microstocker21511/microstocker2151102221/47857697-fondo-de-la-contabilidad-empresarial.jpg);
+    margin: 30px 50px;
+   background-size:contain;
+}
+img{
+    max-width: 100%;
+}
+.wrapper{
+    display: grid;
+    grid-gap: 20px;
+}
+.main-nav ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+
+}
+.main-nav a{
+    background-color: rgb(11, 12, 11);
+    display:block;
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.main-nav a:hover{
+    color: rgb(14, 14, 12);
+    background-color: whitesmoke;
+}
+.main-con{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap : 20px;
+}
+footer {
+    margin-top: 2rem;
+    background: rgb(14, 13, 13);
+border: 5px black;    
+    text-align: center;
+    padding: 1rem;
+    color: whitesmoke;
+  }
+
+  footer a{
+      color: white;
+      font-size: 20px;
+      text-transform: uppercase;
+      padding: 10px;
+      margin-right: 10px;
+      text-decoration: none;
+      background-color:rgb(11, 10, 12); 
+  }
+  footer a:hover{
+      background-color: rgb(247, 247, 244);
+      color: black;
+  }
+  .card{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      padding: 10px;
+      
+  }
+  .card p{
+      color: rgb(12, 10, 10);
+      font-size: 18px;
+      background-color: rgb(40, 14, 190);
+  }
+      
+
+
+
+#employt td, #customers th {
+  border: 1px solid rgb(13, 10, 194);
+  padding: 8px;
+}
+
+#employt tr:nth-child(even){background-color: #12a1a1;}
+
+#employt tr:hover {background-color: #ddd;}
+
+#employt th {
+ padding: 10px;
+  text-align: left;
+  background-color: #f4fcf9;
+  color: rgb(15, 13, 13);
+}
+#employt img{
+    width: 50px;
+    height: 50px;
+    
+}
+#employt{
+width: 100%;
+}
+
+.add-person {
+    
+    padding: 20px;
+   width: auto;
+  height: 350px;
+    border-radius: 5px;
+ 
+  font-size: 20px;
+  align-items: center;
+  color: rgb(5, 5, 5);
+  
+   
+}
+input{
+    width: 25%;
+    border: black 5px;
+    border-radius: 5px;
+    height: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+select{
+    width: 50%;
+    height: 25px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.Submit{
+    margin: 0px;
+    width: 50%;
+    height: 50px;
+    background-color: rgb(78, 206, 61);
+
+}
+.Submit:hover{
+    background-color: rgb(247, 247, 244);
+    color: black;
+}
+footer samp{
+    color: red;
+    
+}
